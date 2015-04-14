@@ -136,6 +136,12 @@ Componentes y Elementos son mutables ya que pueden tener variaciones de estilos 
 <input class="button-send -disabled" />
 ```
 
+Se permiten tener varios mutables por componente/elemento:
+
+```html
+<input class="button-send -wide -disabled" />
+```
+
 --TODO--
 
 ### Consideraciones Generales
