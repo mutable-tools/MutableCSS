@@ -5,7 +5,6 @@ Mutable CSS
 
 
 ### TL;DR
----
 
 - Define **regiones**, zonas reutilizables que compondrán tu layout: `section, nav, aside, article, main, header, footer` y decláralas con ID's semánticos en el HTML. 
 - Crea **componentes** modulares y nómbralos con 2 palabras separadas por un guión (`-`): `.screenshot-image`.
@@ -14,8 +13,8 @@ Mutable CSS
 - Componentes y elementos pueden ser heredados y no deben tener propiedades de posicionamiento y tamaño; defíneselos en su contexto y apóyate de las regiones.
 
 
-# Regiones
----
+Regiones
+---------------
 
 Todo layout se compone de regiones globales, las cuales se definen según el [seccionamiento de HTML5](http://blog.teamtreehouse.com/use-html5-sectioning-elements). Estas regiones se identificarán a través del atributo `id=""` conformadas de una sola palabra, lo que permitirá tener mejor semántica y mejor acceso desde marcas de analítica. Puedes apoyarte de estos `ID's` para definir estilos, pero cuidado con su peso específico ya que puede ser dañino al ser mal utilizado (en la dura, mejor evitar).
 
@@ -36,8 +35,8 @@ Ejemplos de regiones comúnes se listan a continuación:
 ```
 
 
-# Componentes
----
+Componentes
+---------------
 
 Cada pieza de la interfaz corresponde a un *componente* individual. Componentes serán nombrados con **por lo menos 2 palabras** en inglés y separadas con un guión (`-`), por ejemplo:
 
@@ -65,8 +64,8 @@ Si necesario, se permiten anidar componentes:
 </div>
 ```
 
-# Elementos
----
+Elementos
+---------------
 
 Cada componente contiene uno o más elementos. Los nombres de clases para elementos **tienen sólo una palabra**:
 
@@ -110,8 +109,8 @@ Si vez la necesidad de hacerlo (por ejemplo, para dar estilos todos los `<p>` de
 }
 ```
 
-# Mutables
----
+Mutables
+---------------
 
 ![Mutables](https://raw.githubusercontent.com/I2BTech/MutableCSS/master/images/componente-mutable.png)
 
@@ -144,7 +143,8 @@ Se permiten tener varios mutables por componente/elemento:
 
 --TODO--
 
-### Consideraciones Generales
+Consideraciones Generales
+---------------
 
 **Evita propiedades de posicionamiento**: componentes y elementos deben ser creados de una manera en que sean reutilizables en diferentes contextos y debe respetar la grilla que la contiene.
 
