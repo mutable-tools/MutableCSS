@@ -19,7 +19,7 @@ Mutable CSS
 
 Todo layout se compone de regiones globales, las cuales se definen según el [seccionamiento de HTML5](http://blog.teamtreehouse.com/use-html5-sectioning-elements). Estas regiones se identificarán a través del atributo `id=""` conformadas de una sola palabra, lo que permitirá tener mejor semántica y mejor acceso desde marcas de analítica. Puedes apoyarte de estos `ID's` para definir estilos, pero cuidado con su peso específico ya que puede ser dañino al ser mal utilizado (en la dura, mejor evitar).
 
-![Regiones](images/regiones.png)
+![Regiones](https://raw.githubusercontent.com/I2BTech/MutableCSS/master/images/regiones.png)
 
 Ejemplos de regiones comúnes se listan a continuación:
 
@@ -45,13 +45,13 @@ Cada pieza de la interfaz corresponde a un *componente* individual. Componentes 
 * Un formulario de búsqueda (`.form-search`)
 * Una caja de perfil de usuario (`.box-user-profile`)
 
-![Componente](images/componente.png)
+![Componente](https://raw.githubusercontent.com/I2BTech/MutableCSS/master/images/componente.png)
 
 Nótese que el componente comienza con el tipo de componente (**menu, form, box**) y la siguiente palabra es el contexto ó ubicación única en una región ó función (**header, search, user profile**). Esto es para poder identificar rápida y fácilmente otros tipos de componentes similares, porque como sabemos existirán varios `.menu-` y muchos `.box-` entre otros.
 
 ### Componentes anidados
 
-![Componentes Anidados](images/componente-anidado.png)
+![Componentes Anidados](https://raw.githubusercontent.com/I2BTech/MutableCSS/master/images/componente-anidado.png)
 
 Si necesario, se permiten anidar componentes:
 
@@ -78,7 +78,7 @@ Cada componente contiene uno o más elementos. Los nombres de clases para elemen
 }
 ```
 
-![Elementos](images/elementos.png)
+![Elementos](https://raw.githubusercontent.com/I2BTech/MutableCSS/master/images/elementos.png)
 
 **Palabras múltiples:** Cuando necesites utilizar nombres compuestos para tu clase, déjalas juntas sin guión:
 
@@ -113,7 +113,7 @@ Si vez la necesidad de hacerlo (por ejemplo, para dar estilos todos los `<p>` de
 # Mutables
 ---
 
-![Mutables](images/componente-mutable.png)
+![Mutables](https://raw.githubusercontent.com/I2BTech/MutableCSS/master/images/componente-mutable.png)
 
 Componentes y Elementos son mutables ya que pueden tener variaciones de estilos respecto a la definición general. Para esto se crean clases que aportan cambios a los estilos originales y se prefijan con un guión (`-`):
 
