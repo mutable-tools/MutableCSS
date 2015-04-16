@@ -134,24 +134,24 @@ Los tipos de variaciones se clasifican en 2 grupos: diseño y estado.
 ### Diseño
 Son los que cambian el estilo del elemento ó componente. Su numenclatura es resumida y los más comunes se listan a continuación:
 
-- wide: .-wd
-- narrow: .-nw
-- big: .-bg
-- small: .-sm
-- tall: .-lg
-- short: .-sh
-- lower: .-lw
-- upper: .-up
-- centered: .-cnt
-- bold: .-bd
+- wide: `.-wd`
+- narrow: `.-nw`
+- big: `.-bg`
+- small: `.-sm`
+- tall: `.-lg`
+- short: `.-sh`
+- lower: `.-lw`
+- upper: `.-up`
+- centered: `.-cnt`
+- bold: `.-bd`
 
 ### Estado
 Son los que cambian el estado de un elemento ó componente. Su nomenclatura es completa y los comunes son:
 
-- .-disabled
-- .-enabled
-- .-visible
-- .-hidden 
+- `.-disabled`
+- `.-enabled`
+- `.-visible`
+- `.-hidden`
 
 **Uso:**
 
