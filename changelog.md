@@ -14,3 +14,4 @@
 	- agregado *consideraciones generales* para *componentes* y *elementos*. 
 	- mejoradas imágenes de apoyo.
 - 20150414: limpiando contenido y realizado primer release: *v0.5*
+- 20150416: especificado nomenclatura de *mutables*
