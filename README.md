@@ -100,7 +100,7 @@ Cada componente contiene uno o más elementos. Los nombres de clases para elemen
 }
 ```
 
-Si vez la necesidad de hacerlo (por ejemplo, para dar estilos todos los `<p>` dentro de un `<div class="box-content">` prefiere el selector de hijo directo `>`:
+Si ves la necesidad de hacerlo (por ejemplo, para dar estilos todos los `<p>` dentro de un `<div class="box-content">` prefiere el selector de hijo directo `>`:
 
 ```scss
 .box-content {
