@@ -48,7 +48,7 @@ Cada pieza de la interfaz corresponde a un *componente* individual. Componentes 
 
 Nótese que el componente comienza con el tipo de componente (**menu, form, box**) y la siguiente palabra es el contexto ó ubicación única en una región ó función (**header, search, user profile**). Esto es para poder identificar rápida y fácilmente otros tipos de componentes similares, porque como sabemos existirán varios `.menu-` y muchos `.box-` entre otros.
 
-### Componentes anidados
+#### Componentes anidados
 
 ![Componentes Anidados](https://raw.githubusercontent.com/I2BTech/MutableCSS/master/images/componente-anidado.png)
 
@@ -131,7 +131,7 @@ Componentes y Elementos son mutables ya que pueden tener variaciones de estilos 
 
 Los tipos de variaciones se clasifican en 2 grupos: diseño y estado.
 
-### Diseño
+#### Diseño
 Son los que cambian el estilo del elemento ó componente. Su numenclatura es resumida y los más comunes se listan a continuación:
 
 - wide: `.-wd`
@@ -145,7 +145,7 @@ Son los que cambian el estilo del elemento ó componente. Su numenclatura es res
 - centered: `.-cnt`
 - bold: `.-bd`
 
-### Estado
+#### Estado
 Son los que cambian el estado de un elemento ó componente. Su nomenclatura es completa y los comunes son:
 
 - `.-disabled`
@@ -211,6 +211,11 @@ Y utiliza las clases que la grilla te entrega.
   > .meta 	{ /* ... */ }
 }
 ```
+#### Licencia:
+
+> **Mutable CSS** es distribuido bajo la licencia [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/). 
+
+> Copyright (c) 2015 [I2B Technologies](https://github.com/I2BTech)
 
 #### TO-DO:
 - <s>Agregar *Regiones*</s>
