@@ -96,7 +96,7 @@
 
     $('.menubar').css('background-position', '0 0, 0 0');
     $window.on('scroll.strata_parallax', function() {
-      $('.menubar').css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / 20)) + 'px, 0 0');
+      $('.menubar').css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / 20)) + 'px');
     });
 
   })

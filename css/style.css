@@ -728,7 +728,7 @@ body:not(.big-h3) .content h3 {
   }
   .menubar.fixed {
     position: fixed;
-    overflow-y: auto;
+    /*overflow-y: auto;*/
   }
   .menubar.fixed {
     -webkit-overflow-scrolling: touch;
