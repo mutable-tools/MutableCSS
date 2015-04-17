@@ -3,6 +3,7 @@
  */
 /*@import url("//fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300");*/
 @import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(http://fonts.googleapis.com/css?family=Exo:900);
 /* ----------------------------------------------------------------------------
  * Base
  */
@@ -506,6 +507,15 @@ body:not(.big-h3) .content h3 {
 .content .button + em {
   color: #9090aa;
 }
+#mutable-css {
+  font-size: 4em;
+  font-family: 'Exo', sans-serif;
+  color: #ff2247;
+   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ff2247;
+  text-transform: uppercase;
+}
 /*@media (min-width: 1180px) {
   body:not(.no-literate) .content-root {}
 }
@@ -703,6 +713,19 @@ body:not(.big-h3) .content h3 {
   padding-top: 0;
 }
 
+#mutable-css-link {
+  text-align: center;
+  font-size: 2.2em;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  font-family: 'Exo', sans-serif;
+  color: white;
+   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(255,255,255,.9);
+  text-transform: uppercase;
+}
+
 @media (max-width: 480px) {
   .menubar {
     padding: 20px;
@@ -793,7 +816,7 @@ body:not(.big-h3) .content h3 {
 .menu a.level-3 {
   /*font-weight: normal;*/
   font-size: 1em;
-  padding-left: 10px;
+  /*padding-left: 10px;*/
 }
 .menu a.active {
   /*font-weight: bold !important;*/
@@ -861,10 +884,18 @@ code .comment {
   position: relative;
   z-index: 1;
 }
-#zodiac {
+#particles {
   position: fixed;
   top: 0;
   width: 100%;
   height: 100%;
+  z-index: -1;
+}
+#logo {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 200px;
+  height: 60px;
   z-index: -1;
 }

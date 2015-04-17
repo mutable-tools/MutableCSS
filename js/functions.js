@@ -32,7 +32,7 @@
   $(function() {
 
     // particles.js
-    zodiac=new Zodiac("zodiac",{
+    particles=new Zodiac("particles",{
       directionX:0,
       directionY:0,
       velocityX:[.1,.2],
@@ -45,6 +45,22 @@
       linkColor:"#BDC3C7",
       linkDistance:100,
       linkWidth:1
+    });
+    // logo
+    logo=new Zodiac("logo",{
+      directionX:2,
+      directionY:2,
+      velocityX:[.6,.4],
+      velocityY:[.6,.4],
+      bounceX:!0,
+      bounceY:!0,
+      parallax:0,
+      density:1000,
+      dotRadius:[2,3],
+      dotColor: 'rgba(99,99,99,.6)',
+      linkColor: 'rgba(255,255,255,.6)',
+      linkDistance:50,
+      linkWidth:1.5
     });
 
     var $card = $('.title-card');
