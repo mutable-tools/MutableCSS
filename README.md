@@ -215,7 +215,7 @@ Y utiliza las clases que la grilla te entrega.
 
 > **Mutable CSS** es distribuido bajo la licencia [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/). 
 
-> Copyright (c) 2015 [I2B Technologies](https://github.com/I2BTech)
+> Copyright (c) 2015 por [Jorge Epuñan](https://github.com/juanbrujo) para [I2B Technologies](https://github.com/I2BTech)
 
 #### TO-DO:
 - <s>Agregar *Regiones*</s>
