@@ -42,7 +42,7 @@
       parallax:0,
       density:9999,
       dotRadius:[1,2],
-      linkColor:"#BDC3C7",
+      linkColor:"rgba(255,255,255,1)",
       linkDistance:100,
       linkWidth:1
     });
@@ -50,14 +50,13 @@
     logo=new Zodiac("logo",{
       directionX:2,
       directionY:2,
-      velocityX:[.6,.4],
-      velocityY:[.6,.4],
+      velocityX:[.2,.4],
+      velocityY:[.2,.4],
       bounceX:!0,
       bounceY:!0,
       parallax:0,
-      density:1000,
-      dotRadius:[2,3],
-      dotColor: 'rgba(99,99,99,.6)',
+      density:1500,
+      dotRadius:[1,2],
       linkColor: 'rgba(255,255,255,.6)',
       linkDistance:50,
       linkWidth:1.5
