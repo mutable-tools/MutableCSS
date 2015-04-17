@@ -9,7 +9,7 @@ Mutable CSS
 - Define **regiones**, zonas reutilizables que compondrán tu layout: `section, nav, aside, article, main, header, footer` y decláralas con ID's semánticos en el HTML. 
 - Crea **componentes** modulares y nómbralos con 2 palabras separadas por un guión (`-`): `.screenshot-image`.
 - Components contienen **elementos**, nómbralos con 1 palabra: `.title`.
-- Componentes y elementos tienen **mutables**, variaciones que se declaran un guión (`-`) como prefijo y con nombre resumido (acrónimo): `-lg`, `-sm`.
+- Componentes y elementos tienen **mutables**, variaciones que se declaran un guión (`-`) como prefijo y con nombre resumido si son variaciones de *diseño* (acrónimo): `-lg`, `-sm` y completos si son de *estado*: `-disabled`, `-active`.
 - Componentes y elementos pueden ser heredados y no deben tener propiedades de posicionamiento y tamaño; defíneselos en su contexto y apóyate de las regiones.
 
 
