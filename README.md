@@ -16,7 +16,7 @@ Mutable CSS
 Regiones
 ---------------
 
-Todo layout se compone de regiones globales, las cuales se definen según el [seccionamiento de HTML5](http://blog.teamtreehouse.com/use-html5-sectioning-elements). Estas regiones se identificarán a través del atributo `id=""` conformadas de una sola palabra, lo que permitirá tener mejor semántica y mejor acceso desde marcas de analítica. Puedes apoyarte de estos `ID's` para definir estilos, pero cuidado con su peso específico ya que puede ser dañino al ser mal utilizado (en la dura, mejor evitar).
+Todo layout se compone de regiones globales, las cuales se definen según el [seccionamiento de HTML5](http://blog.teamtreehouse.com/use-html5-sectioning-elements). Estas regiones se identificarán a través del atributo `id=""` conformadas de una sola palabra, lo que permitirá tener mejor semántica y mejor acceso desde marcas de analítica. Puedes apoyarte de estos `ID's` para definir estilos, pero cuidado con su peso específico ya que puede ser dañino al ser mal utilizado (en la duda, mejor evitar).
 
 ![Regiones](https://raw.githubusercontent.com/I2BTech/MutableCSS/master/images/regiones.png)
 
