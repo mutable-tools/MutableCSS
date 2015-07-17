@@ -52,7 +52,7 @@ Nótese que el componente comienza con el tipo de componente (**menu, form, box*
 
 ![Componentes Anidados](https://raw.githubusercontent.com/I2BTech/MutableCSS/master/images/componente-anidado.png)
 
-Si necesario, se permiten anidar componentes:
+Se permite anidar componentes si se requiere:
 
 ```html
 <div class='box-article'>
