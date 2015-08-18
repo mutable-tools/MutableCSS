@@ -9,7 +9,7 @@ Mutable CSS
 - Define **regiones**, zonas reutilizables que compondrán tu layout: `section, nav, aside, article, main, header, footer` y decláralas con ID's semánticos en el HTML. 
 - Crea **componentes** modulares y nómbralos con 2 palabras separadas por un guión (`-`): `.screenshot-image`.
 - Components contienen **elementos**, nómbralos con 1 palabra: `.title`.
-- Componentes y elementos tienen **mutables**, variaciones que se declaran un guión (`-`) como prefijo y con nombre resumido si son variaciones de *diseño* (acrónimo): `-lg`, `-sm` y completos si son de *estado*: `-disabled`, `-active`.
+- Componentes y elementos tienen **mutables**, variaciones que se declaran un guión (`-`) como prefijo y de 2 tipos: variaciones de *diseño*: `-large`, `-small` de *estado*: `-disabled`, `-active`.
 - Componentes y elementos pueden ser heredados y no deben tener propiedades de posicionamiento y tamaño; defíneselos en su contexto y apóyate de las regiones.
 
 
@@ -26,13 +26,6 @@ Ejemplos de regiones comúnes se listan a continuación:
 - `#content`
 - `#sidebar`
 - `#footer`
-
-```scss
-#header {
-	padding: 20px;
-	background-color: #fff;
-}
-```
 
 
 Componentes
@@ -72,7 +65,7 @@ Cada componente contiene uno o más elementos. Los nombres de clases para elemen
 ```scss
 .form-search { // componente
 
-	.field		{ /* ... */ }	// elemento
+	.field	{ /* ... */ }	// elemento
 	.button	{ /* ... */ }	// elemento
 }
 ```
@@ -132,21 +125,23 @@ Componentes y Elementos son mutables ya que pueden tener variaciones de estilos 
 Los tipos de variaciones se clasifican en 2 grupos: diseño y estado.
 
 #### Diseño
-Son los que cambian el estilo del elemento ó componente. Su numenclatura es resumida y los más comunes se listan a continuación:
+Son los que cambian el estilo del elemento ó componente y los más comunes se listan a continuación:
 
-- wide: `.-wd`
-- narrow: `.-nw`
-- big: `.-bg`
-- small: `.-sm`
-- tall: `.-lg`
-- short: `.-sh`
-- lower: `.-lw`
-- upper: `.-up`
-- centered: `.-cnt`
-- bold: `.-bd`
+- wide: `.-wide`
+- narrow: `.-narrow`
+- big: `.-big`
+- small: `.-small`
+- tall: `.-tall`
+- short: `.-short`
+- large: `.-large`
+- lower: `.-lower`
+- upper: `.-upper`
+- centered: `.-centered`
+- bold: `.-bold`
+- light: `.-light`
 
 #### Estado
-Son los que cambian el estado de un elemento ó componente. Su nomenclatura es completa y los comunes son:
+Son los que cambian el estado de un elemento ó componente y los comunes son:
 
 - `.-disabled`
 - `.-enabled`
@@ -162,15 +157,17 @@ Son los que cambian el estado de un elemento ó componente. Su nomenclatura es c
 Se permiten tener varios mutables por componente/elemento:
 
 ```html
-<input class="button-send -wd -disabled" />
+<input class="button-send -wide -disabled" />
 ```
 
 Consideraciones Generales
 ---------------
 
+**Tamaños fijos**: evita darle ancho/alto fijo a componentes; excepciones son avatares, cajas de votación y otras.
+
 **Evita propiedades de posicionamiento**: componentes y elementos deben ser creados de una manera en que sean reutilizables en diferentes contextos y debe respetar la grilla que la contiene.
 
-Evita estas propiedades:
+Evita:
 
 * Posicionamiento (`position`, `top`, `left`, `right`, `bottom`)
 * Flotado (`float`, `clear`)
@@ -178,8 +175,6 @@ Evita estas propiedades:
 * Tamaño (`width`, `height`)
 
 Y utiliza las clases que la grilla te entrega.
-
-**Tamaños fijos**: evita darle ancho/alto fijo a componentes; excepciones son avatares, cajas de votación y otras.
 
 **Define tamaño y posicionamiento en el contexto no en el componente:** Si necesitas definir estas propiedades, hazlo en el contexto del componente (ó en la región que lo contiene) no en la definición del componente:
 
@@ -211,6 +206,8 @@ Y utiliza las clases que la grilla te entrega.
   > .meta 	{ /* ... */ }
 }
 ```
+
+
 #### Licencia:
 
 > **Mutable CSS** es distribuido bajo la licencia [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/). 
@@ -219,5 +216,5 @@ Y utiliza las clases que la grilla te entrega.
 
 #### TO-DO:
 - <s>Agregar *Regiones*</s>
-- Normalizar nomenclatura de regiones, componentes y elementos (y sus mutables)
+- <s>Normalizar nomenclatura de regiones, componentes y elementos (y sus mutables)</s>
 - <s>Mejorar imágenes de ejemplos</s>
