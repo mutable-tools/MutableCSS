@@ -112,8 +112,8 @@ Componentes y Elementos son mutables ya que pueden tener variaciones de estilos 
 ```scss
 .box-user-profile {
 
-	&.-wd { }
-	&.-sm { }
+	&.-wide  { }
+	&.-small { }
 }
 
 .button{
